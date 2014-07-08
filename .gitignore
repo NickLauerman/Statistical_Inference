@@ -4,5 +4,16 @@
 # Example code in package build process
 *-Ex.R
 
+# Rstudio project files
+*.Rproj*
+
+
 # R data files from past sessions
 .Rdata
+
+# other files that are not needed in the repo
+*.html
+*.rds
+junk*
+hold*
+todo*
