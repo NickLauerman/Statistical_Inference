@@ -6,14 +6,19 @@
 
 # Rstudio project files
 *.Rproj*
-
+.Rproj.user
 
 # R data files from past sessions
 .Rdata
 
+# compressed/zip files
+*.zip
+
+# to stay local
+cache*
+
 # other files that are not needed in the repo
 *.html
-*.rds
 junk*
 hold*
 todo*
